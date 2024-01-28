@@ -1,18 +1,26 @@
+/* Estilos generales del cuerpo de la aplicación */
+
 body{
   font-family: Arial;
   background-color: lightblue;
 }
+/* Estilos para el encabezado principal */
+
 h1{
   display: flex;
   justify-content: center;
   margin-top: 100px;
 }
+/* Estilos para la sección del cronómetro */
+
 .chronometer{
   display: flex;
   justify-content: center;
   font-size: 25px;
   margin-bottom: 20px;
 }
+/* Estilos para los botones de inicio, pausa y reinicio del cronómetro */
+
 .s-p-r-button{
   display: flex;
   justify-content: center;
