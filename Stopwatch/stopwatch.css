@@ -1,0 +1,43 @@
+body{
+  font-family: Arial;
+  background-color: lightblue;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.chronometer{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.s-p-r-button{
+  display: flex;
+  justify-content: center;
+}
+.start-button,
+.pause-button,
+.reset-button{
+  margin-right: 10px;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.15s;
+}
+.reset-button{
+  margin: 0;
+}
+.start-button:hover,
+.pause-button:hover,
+.reset-button:hover{
+  background-color: rgb(226, 226, 226);
+}
+.start-button:active,
+.pause-button:active,
+.reset-button:active{
+  background-color: rgb(128, 128, 128);
+}
